@@ -1,0 +1,53 @@
+/* Estilizando o container principal */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para o formulário de cadastro de produtos */
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos para a lista de produtos */
+div h3 {
+  text-align: center;
+}
+
+div ul {
+  list-style: none;
+  padding: 0;
+}
+
+div li {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+}
+

@@ -1,0 +1,66 @@
+/* Reset de estilos padrão para garantir uma base consistente */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Container principal */
+.App {
+  text-align: center;
+}
+
+/* Estilo do cabeçalho */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Logo */
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-bottom: 1rem;
+}
+
+/* Animação da logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Links */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #28a745;
+}
+
+/* Keyframes para a animação da logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
